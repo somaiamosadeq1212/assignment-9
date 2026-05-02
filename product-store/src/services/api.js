@@ -1,19 +1,4 @@
 import axios from "axios";
-
-// export const fetchProducts = async ({ pageParam = 0 }) => {
-//   const limit = 6;
-
-//   const res = await axios.get(
-//     `https://dummyjson.com/products?limit=${limit}&skip=${pageParam}`
-//   );
-
-//   return {
-//     data: res.data.products ?? [],
-//     nextPage:
-//       pageParam + limit < res.data.total ? pageParam + limit : undefined,
-//   };
-// };
-
 export const fetchProducts = async ({ pageParam = 0, category }) => {
   const limit = 6;
 

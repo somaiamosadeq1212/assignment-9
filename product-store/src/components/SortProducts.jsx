@@ -7,16 +7,6 @@ function SortProducts() {
 
   return (
     <FormControl fullWidth size="small">
-      {/* <InputLabel
-        sx={{
-        //   color: (theme) =>
-        //     theme.palette.mode === "dark" ? "#093dea" : "#555",
-        //   fontWeight: 500,
-        }}
-      >
-        Sort By
-      </InputLabel> */}
-
       <Select
         value={state.sort}
         label="Sort By"
